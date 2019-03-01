@@ -1,9 +1,11 @@
-n=int(input("Digite El Primer Numero"))
-if n==0:
-    print("el numero es 0")
-else:
-    if n%2==0:
-        print("su numero es par")
+p=0
+
+for m in range(0,99999999999999999999999999999999999999999999999999999999999999999):
+    m=int(input("ingrese un numero"))
+
+    if m%2==0:
+        p = p + 1
     else:
-        print("su numero no es par")
-        
+        break
+
+    print("El CMD Se Detuvp PorQue Ingreso Un Numero Impar \n y La Cantidad De Pares Fueron: ",p)
